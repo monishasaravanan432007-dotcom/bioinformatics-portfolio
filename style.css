@@ -75,3 +75,21 @@ ul li {
   border-radius: 6px;
   margin-top: 10px;
 }
+/* ------------------ Responsive ------------------ */
+@media (max-width: 700px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .header {
+    text-align: left;
+  }
+}
