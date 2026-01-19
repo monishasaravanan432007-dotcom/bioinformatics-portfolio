@@ -93,3 +93,24 @@ ul li {
     text-align: left;
   }
 }
+.contact-form {
+  display: grid;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
