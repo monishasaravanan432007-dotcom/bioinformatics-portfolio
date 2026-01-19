@@ -1,4 +1,7 @@
-### 3. FASTA Reader
+# Bioinformatics Portfolio
+
+1. Sequence Alignment (Python)
+2. DNA Analysis (Python)### 3. FASTA Reader
 - Reads FASTA file
 - Prints sequence names and sequences
 
