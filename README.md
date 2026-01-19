@@ -30,3 +30,7 @@ python sequence_alignment.py
 - Compares two DNA sequences
 - Calculates simple alignment score
 - Implemented using Python
+### 📄 FASTA File Reader
+- Reads DNA sequence from FASTA file
+- Calculates sequence length
+- Python-based bioinformatics utility

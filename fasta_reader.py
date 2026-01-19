@@ -21,3 +21,14 @@ seqs = read_fasta(file_path)
 
 for name, seq in seqs.items():
     print(f"{name}: {seq}")
+filename = input("Enter FASTA file name: ")
+
+with open(filename, "r") as file:
+    sequence = ""
+    for line in file:
+        if not line.startswith(">"):
+            sequence += line.strip()
+
+print("Sequence Length:", len(sequence))
+print("Sequence:")
+print(sequence)
