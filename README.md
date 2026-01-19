@@ -26,3 +26,7 @@ python sequence_alignment.py
 - Calculates GC content
 - Generates reverse complement
 - Written in Python
+### 🔗 Sequence Alignment Tool
+- Compares two DNA sequences
+- Calculates simple alignment score
+- Implemented using Python
