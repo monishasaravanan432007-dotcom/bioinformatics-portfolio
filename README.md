@@ -21,3 +21,8 @@ Tools:
 
 How to run:
 python sequence_alignment.py
+### 🧬 DNA Analysis Tool
+- Counts A, T, C, G
+- Calculates GC content
+- Generates reverse complement
+- Written in Python
