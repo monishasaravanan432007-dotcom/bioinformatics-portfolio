@@ -1,5 +1,52 @@
 body {
   font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #1f3b5a;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section {
+  padding: 40px 0;
+}
+
+.about, .projects, .skills, .contact {
+  padding: 40px 0;
+}
+
+h2 {
+  color: #1f3b5a;
+  margin-bottom: 20px;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: #1f3b5a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}body {
+  font-family: Arial, sans-serif;
   text-align: center;
   padding-top: 80px;
 }
