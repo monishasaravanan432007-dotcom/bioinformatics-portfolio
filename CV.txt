@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monisha Saravanan - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin: 0;
+      font-size: 32px;
+    }
+    h2 {
+      margin: 5px 0;
+      font-size: 18px;
+      color: #555;
+    }
+    .section {
+      margin: 20px 0;
+    }
+    .section h3 {
+      margin-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      font-size: 18px;
+      color: #111;
+    }
+    .section p, .section ul {
+      margin: 5px 0;
+      line-height: 1.6;
+    }
+    .skills ul, .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .skills li, .projects li {
+      margin: 5px 0;
+    }
+    .contact p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Monisha Saravanan</h1>
+      <h2>Biotechnology Student | Front-end Developer | Bioinformatics Enthusiast</h2>
+    </div>
+
+    <div class="section contact">
+      <h3>Contact</h3>
+      <p><strong>Email:</strong> your_email@gmail.com</p>
+      <p><strong>Phone:</strong> +91 xxxxx xxxxx</p>
+      <p><strong>Location:</strong> Erode, Tamil Nadu</p>
+      <p><strong>LinkedIn:</strong> linkedin.com/in/yourname</p>
+      <p><strong>GitHub:</strong> github.com/monishasaravanan432007-dotcom</p>
+    </div>
+
+    <div class="section objective">
+      <h3>Objective</h3>
+      <p>
+        To build a career in biotechnology and web development by creating innovative projects, learning new technologies, and contributing to real-world solutions.
+      </p>
+    </div>
+
+    <div class="section education">
+      <h3>Education</h3>
+      <p><strong>B.Tech Biotechnology</strong> – Paavai Engineering College</p>
+      <p><strong>Year:</strong> 2024 – 2028</p>
+    </div>
+
+    <div class="section skills">
+      <h3>Skills</h3>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python (Bioinformatics)</li>
+        <li>Git & GitHub</li>
+        <li>Data Analysis</li>
+        <li>Sequence Alignment, DNA Analysis</li>
+      </ul>
+    </div>
+
+    <div class="section projects">
+      <h3>Projects</h3>
+      <ul>
+        <li><strong>Sequence Alignment Tool (Python)</strong> – Aligns two DNA sequences and calculates score.</li>
+        <li><strong>Bioinformatics Portfolio Website</strong> – Built using HTML & CSS to show projects and skills.</li>
+        <li><strong>DNA Analysis Tool</strong> – Python script for DNA data analysis.</li>
+      </ul>
+    </div>
+
+    <div class="section achievements">
+      <h3>Achievements</h3>
+      <p>
+        Participated in various coding and biotechnology projects. (You can add your achievements here)
+      </p>
+    </div>
+
+    <div class="section hobbies">
+      <h3>Hobbies</h3>
+      <p>Web Development, Coding, Bioinformatics, Reading, Learning New Technologies</p>
+    </div>
+
+    <div class="section declaration">
+      <h3>Declaration</h3>
+      <p>
+        I hereby declare that all the information provided above is true to the best of my knowledge.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
