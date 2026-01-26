@@ -581,5 +581,199 @@ header p {
   font-size: 1.2rem;
   color: #333;
 }
+/* SECTION COLORS (Neha Style) */
+.section {
+  padding: 60px 0;
+}
 
+#home {
+  background: #ffffff; /* white */
+}
+
+#about {
+  background: #f6f1ff; /* light violet */
+}
+
+#education {
+  background: #ffffff; /* white */
+}
+
+#experience {
+  background: #f7f7f7; /* light gray */
+}
+
+#certificates {
+  background: #f6f1ff; /* light violet */
+}
+
+#projects {
+  background: #ffffff; /* white */
+}
+
+#skills {
+  background: #f7f7f7; /* light gray */
+}
+
+#contact {
+  background: #ffffff; /* white */
+}
+.edu-section {
+  background: linear-gradient(135deg, #f6f1ff, #ffffff);
+}
+
+.edu-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.edu-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.edu-box:hover {
+  transform: translateY(-8px);
+}
+
+.edu-dot {
+  width: 14px;
+  height: 14px;
+  background: #6c63ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.edu-box h3 {
+  color: #2d2e32;
+  margin-bottom: 6px;
+}
+
+.edu-place {
+  font-weight: 600;
+  color: #6c63ff;
+}
+
+.edu-score {
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+.edu-year {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+.project-section {
+  background: linear-gradient(135deg, #f7f7f7, #ffffff);
+}
+
+.project-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 35px;
+}
+
+.project-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-box:hover {
+  transform: translateY(-10px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h3 {
+  color: #2d2e32;
+}
+
+.badge {
+  background: #6c63ff;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.badge.bio {
+  background: #20c997;
+}
+
+.project-box ul {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.project-box ul li {
+  margin-bottom: 8px;
+}
+
+.project-tech {
+  font-weight: 700;
+  color: #555;
+}
+.skills-section {
+  background: #ffffff;
+}
+
+.skills-showcase {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.skill-box {
+  padding: 30px;
+  border-radius: 20px;
+  color: #fff;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+  transform: scale(1.05);
+}
+
+.skill-box h3 {
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.skill-box span {
+  display: inline-block;
+  background: rgba(255,255,255,0.2);
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin: 6px;
+  font-size: 14px;
+}
+
+/* Color Themes */
+.skill-box.soft {
+  background: linear-gradient(135deg, #ff6b6b, #ff8787);
+}
+
+.skill-box.core {
+  background: linear-gradient(135deg, #6c63ff, #857cff);
+}
+
+.skill-box.tech {
+  background: linear-gradient(135deg, #20c997, #38d9a9);
+}
 
