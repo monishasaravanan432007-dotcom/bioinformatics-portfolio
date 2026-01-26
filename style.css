@@ -468,4 +468,118 @@ header p {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
+.education {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.education h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.edu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.edu-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  width: 100%;
+  max-width: 350px;
+  text-align: left;
+}
+.skills {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;          /* Important: move words to next line */
+  justify-content: center;  /* center align */
+  gap: 12px;
+}
+
+.skill {
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+  max-width: 150px;         /* prevent overflow */
+  text-align: center;
+  word-wrap: break-word;    /* important for long words */
+}
+.projects {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.project-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  text-align: left;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+.contact-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.email-icon {
+  font-size: 1.5rem;
+}
+.contact-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.contact-email i {
+  font-size: 1.2rem;
+  color: #333;
+}
+
 
